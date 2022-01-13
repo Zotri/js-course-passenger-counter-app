@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#increment-btn:active {
+  background-color: #5f3737;
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+
+#count-down-btn {
+  background: darkslategrey;
+}
+
+#count-down-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#save-btn {
+  background: darkgreen;
+}
